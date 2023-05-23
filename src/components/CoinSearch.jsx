@@ -39,7 +39,7 @@ const CoinSearch = ({ coins }) => {
               } else if (
                 value.name
                   .toLowerCase()
-                  .includes(searchText.toLocaleLowerCase())
+                  .includes(searchText.toLowerCase())
               ) {
                 return value;
               }
